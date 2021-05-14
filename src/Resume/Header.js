@@ -21,7 +21,7 @@ const style = {
     padding: '16px 0 1px 0',
     flex: '1 1 auto',
     fontSize: '1.6rem',
-    marginBottom: '-0.4em',
+    marginBottom: '-1em',
     height: '9rem',
   },
   h1: {

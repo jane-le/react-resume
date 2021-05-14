@@ -17,7 +17,7 @@ Link.propTypes = {
 const defaultStyle = {
   padding: '0 0 0 0.5rem',
   textDecoration: 'none',
-  color: 'rgb(77, 141, 109)'
+  color: 'rgb(53, 97, 69)'
 };
 
 export default Link;

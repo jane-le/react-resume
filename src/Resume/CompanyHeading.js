@@ -32,7 +32,7 @@ const defaultStyles = {
   },
   date: {
     fontSize: "0.9rem",
-    color: "rgba(77, 100, 141, 0.75)",
+    color: "#1F3B2C",
     padding: "0.25rem",
   },
 };

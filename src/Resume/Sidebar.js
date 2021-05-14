@@ -17,8 +17,6 @@ const Sidebar = ({ data }) => (
         items={data.interests}
         separator={"<br/>"}
       />
-    </div>
-    <div>
       <Education
         university={data.education.university}
         degree={data.education.degree}
@@ -26,6 +24,7 @@ const Sidebar = ({ data }) => (
         courses={data.education.courses}
       />
     </div>
+
   </section>
 );
 
@@ -33,7 +32,7 @@ const style = {
   main: {
     flex: "1 0 auto",
     width: "30%",
-    backgroundColor: "rgba(88,128,104,0.125)",
+    backgroundColor: "rgba(88,128,104,0.085)",
     display: "flex",
     flexDirection: "column",
     justifyContent: "space-between",

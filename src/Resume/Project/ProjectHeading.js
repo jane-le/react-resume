@@ -3,7 +3,6 @@ import React, { PropTypes } from 'react';
 const ProjectHeading = ({ name, tools, type }) => (
   <div style={style.main}>
     <div style={style.name}>{name}
-      <div style={style.type}>—</div>
       <div style={style.type}>{type}</div>
     </div>
     <div style={style.tools}>
@@ -26,7 +25,7 @@ const style = {
   },
   tools: {
     fontSize: '0.75rem',
-    color: 'rgba(77, 100, 141, 0.75)',
+    color: 'rgba(53, 97, 69, 0.75)',
   },
   type: {
     display: "inline-block",

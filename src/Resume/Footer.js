@@ -1,15 +1,9 @@
 import React, { PropTypes } from 'react';
 import Link from '../ui/Link';
 
-const Footer = ({links}) => (
+const Footer = ({links, footer}) => (
   <section style={style.main}>
-    {
-      links.map((link) => (
-        <div key={link.name}>
-          <i className={link.faClass} style={style.icon}></i><Link to={link.link}>{link.display}</Link>
-        </div>
-      ))
-    }
+    <p style={{marginTop: 0}}>{footer}</p>
   </section>
 );
 
@@ -20,7 +14,7 @@ const style = {
     padding: '1rem 1rem 0 1rem',
     borderTop: '1px solid black',
     display: 'flex',
-    justifyContent: 'space-between'
+    justifyContent: 'flex-end',
   },
   icon: {
     display:'inline-block',

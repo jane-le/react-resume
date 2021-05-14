@@ -1,9 +1,10 @@
 import React, { PropTypes } from 'react';
 
-const SidebarHeading = ({ children, align = 'left' }) => (
+const SidebarHeading = ({ children, align = 'left', bottomMargin }) => (
   <h1 style={{
     ...style,
     textAlign: align,
+    marginBottom: bottomMargin,
   }}>
     {children}
   </h1>
