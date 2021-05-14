@@ -21,7 +21,7 @@ const style = {
     height: '1.6rem',
     textAlign: 'center',
     verticalAlign: 'middle',
-    color: 'rgba(77, 100, 141, 1)'
+    color: '#588068'
   },
 };
 

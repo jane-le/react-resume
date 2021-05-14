@@ -1,8 +1,11 @@
 import React, { PropTypes } from 'react';
 
-const ProjectHeading = ({ name, tools }) => (
+const ProjectHeading = ({ name, tools, type }) => (
   <div style={style.main}>
-    <div style={style.name}>{name}</div>
+    <div style={style.name}>{name}
+      <div style={style.type}>—</div>
+      <div style={style.type}>{type}</div>
+    </div>
     <div style={style.tools}>
       {tools.join(', ')}
     </div>
@@ -19,11 +22,18 @@ const style = {
   name: {
     fontSize: '1rem',
     fontWeight: 'bold',
-    color: 'rgb(77, 100, 141)'
+    color: '#588068'
   },
   tools: {
     fontSize: '0.75rem',
     color: 'rgba(77, 100, 141, 0.75)',
+  },
+  type: {
+    display: "inline-block",
+    fontSize: "1rem",
+    color: "rgba(78, 78, 78 , 1)",
+    padding: "0.25rem",
+    fontWeight: "300",
   },
 };
 

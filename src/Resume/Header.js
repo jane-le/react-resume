@@ -25,7 +25,7 @@ const style = {
     height: '9rem',
   },
   h1: {
-    color: 'rgb(21, 44, 85)',
+    color: '#1F3B2C',
     display: 'block',
     fontSize: '3.4rem',
   },
@@ -34,7 +34,7 @@ const style = {
     display: 'block',
     marginLeft: '5px',
     marginTop: '-6px',
-    color: 'rgb(77, 100, 141)'
+    color: '#3d5948'
   },
   span: {
     display: 'inline-block',

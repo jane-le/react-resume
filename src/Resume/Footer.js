@@ -16,10 +16,9 @@ const Footer = ({links}) => (
 const style = {
   main: {
     flex: '1 1 auto',
-    marginTop: '1rem',
+    marginTop: '2rem',
     padding: '1rem 1rem 0 1rem',
     borderTop: '1px solid black',
-    height: '3rem',
     display: 'flex',
     justifyContent: 'space-between'
   },
@@ -34,7 +33,7 @@ const style = {
     color: 'rgba(77, 100, 141, 1)',
     border: '1px solid rgba(77, 100, 141, 1)',
     borderRadius: '60px',
-    padding: '4px'
+    padding: '4px',
   },
 };
 

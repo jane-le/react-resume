@@ -12,8 +12,9 @@ const SidebarHeading = ({ children, align = 'left' }) => (
 const style = {
   paddingTop: '0.25rem',
   paddingBottom: '0.25rem',
-  borderBottom: '1px solid rgb(21, 44, 85)',
-  marginBottom: '0.6rem'
+  borderBottom: '1px solid #1F3B2C',
+  marginBottom: '0.6rem',
+  color: '#1F3B2C',
 };
 
 SidebarHeading.propTypes = {

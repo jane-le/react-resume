@@ -1,7 +1,8 @@
 import React, { PropTypes } from 'react';
 import SidebarHeading from './SidebarHeading';
+import List from '../ui/List';
 
-const Education = ({ university, duration, degree }) => (
+const Education = ({ university, duration, degree, courses }) => (
   <section style={style.main}>
     <SidebarHeading align="left">+ EDUCATION</SidebarHeading>
     <div style={{
@@ -10,6 +11,9 @@ const Education = ({ university, duration, degree }) => (
     }}>{university}</div>
     <div>{degree}</div>
     <div style={style.text}>{duration}</div>
+    <p style={style.subtitle}>Relevant Courses</p>
+    <List style={{ margin: 0 }} items={courses} />
+
   </section>
 );
 
@@ -20,6 +24,11 @@ const style = {
   text: {
     textAlign: 'left',
   },
+  subtitle: {
+    marginBottom: 0,
+    fontWeight: 'bold',
+  },
+
 };
 
 Education.propTypes = {

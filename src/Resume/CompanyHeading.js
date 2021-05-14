@@ -20,7 +20,7 @@ const defaultStyles = {
   company: {
     fontSize: "1.25rem",
     fontWeight: "bold",
-    color: "rgba(77, 100, 141, 1)",
+    color: "#588068",
     padding: "0.25rem",
   },
   title: {
