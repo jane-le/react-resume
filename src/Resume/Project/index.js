@@ -3,11 +3,10 @@ import List from '../../ui/List';
 import ProjectHeading from './ProjectHeading';
 
 const Project = ({ name, tools, link, achievements, type }) => {
-  const items = link ? [...achievements, createLink(link)] : achievements;
   return (
     <div style={style.main}>
-      <ProjectHeading name={name} tools={tools} type={type} />
-      <List items={items} style={style.list}/>
+      <ProjectHeading link={link} name={name} tools={tools} type={type} />
+      <List items={achievements} style={style.list}/>
     </div>
   );
 };

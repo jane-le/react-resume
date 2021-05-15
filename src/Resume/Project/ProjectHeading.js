@@ -1,8 +1,8 @@
 import React, { PropTypes } from 'react';
 
-const ProjectHeading = ({ name, tools, type }) => (
+const ProjectHeading = ({ link, name, tools, type }) => (
   <div style={style.main}>
-    <div style={style.name}>{name}
+    <div style={style.name}><a style={style.name} href={link}>{name}</a>
       <div style={style.type}>{type}</div>
     </div>
     <div style={style.tools}>
@@ -19,9 +19,10 @@ const style = {
     marginBottom: '0.4rem',
   },
   name: {
-    fontSize: '1rem',
     fontWeight: 'bold',
-    color: '#588068'
+    color: '#588068',
+    textDecoration: 'none',
+    fontSize: "1.25rem",
   },
   tools: {
     fontSize: '0.75rem',
