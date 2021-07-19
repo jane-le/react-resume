@@ -93,6 +93,11 @@ export default {
     },
     companies: [
       {
+        name: 'Coursera',
+        title: 'Incoming Software Engineering Intern',
+        date: 'Sept 2021'
+      },
+      {
         name: 'Bunch',
         title: 'Game Developer Intern',
         color: '#815ACD',
@@ -102,7 +107,6 @@ export default {
           'Released <b><a href="https://apps.apple.com/gb/app/mars-dash-battle-running-game/id1549911883">Mars Dash: Battle Running Game v1.0</a></b> within a fast-paced timeline of 3 months by developing battle pass, character selection, and reactive networking systems using <b>Unity (C#)</b>.',
           'Prototyped and pitched the first iteration of a new Mars Dash game mode, which spearheaded product implementation.',
           'Integrated <b>Firebase</b> database and analytics systems to store user player preferences and track metrics such daily active users, retention rate, and average rounds played.',
-          'Promoted positive company culture by formalizing a pixel art club to encourage design growth and fun.',
         ],
       },
       {
