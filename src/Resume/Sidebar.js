@@ -9,19 +9,18 @@ const Sidebar = ({ data }) => (
   <section style={style.main}>
     <div>
       <ContactLinks data={data.links} />
-      <About about={data.about} />
       <Languages data={data.languages} />
       <SidebarList title="+ TECHNOLOGIES" items={data.technologies} />
-      <SidebarList
-        title="+ INTERESTS"
-        items={data.interests}
-        separator={"<br/>"}
-      />
       <Education
         university={data.education.university}
         degree={data.education.degree}
         duration={data.education.duration}
         courses={data.education.courses}
+      />
+      <SidebarList
+        title="+ INTERESTS"
+        items={data.interests}
+        separator={"<br/>"}
       />
     </div>
 

@@ -15,7 +15,7 @@ class Resume extends Component {
           <Main {...DATA.main} />
           <Sidebar data={DATA.sidebar} />
         </div>
-        <Footer links={DATA.footerLinks} footer={DATA.footer}/>
+        <Footer footer={DATA.footer}/>
       </Container>
     );
   }

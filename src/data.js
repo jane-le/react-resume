@@ -16,6 +16,9 @@ export default {
         name: 'JavaScript',
       },
       {
+        name: 'Scala',
+      },
+      {
         name: 'Typescript',
       },
       {
@@ -28,11 +31,14 @@ export default {
         name: 'Python',
       },
       {
+        name: 'SQL',
+      },
+      {
         name: 'HTML/CSS',
       },
     ],
     about:
-      'I love software development and have a soft spot for the end-user. I\'m a quick learner and enjoy wearing multiple hats. Specializing in web/game development, I\'m eager to apply my skills and be impactful!',
+      'I love software development and have a soft spot for the end-user. I’m a quick learner and have experience in multiple software roles. Let’s connect!',
     technologies: [
       'React',
       'React Native',
@@ -45,10 +51,14 @@ export default {
       'Figma',
       'AutoCAD',
       'Android Studio',
+      'MySQL',
+      'Airflow',
+      'Redshift',
+      'AWS',
     ],
     interests: [
       'House plant <b>caretaker</b>.',
-      'Stardew Valley and tetris <b>gamer</b>.',
+      'Stardew Valley <b>farmer</b>.',
       'Newbie indoor <b>rock climber</b>.',
     ],
     links: [
@@ -70,23 +80,20 @@ export default {
         display: 'linkedin.com/in/janelamle/',
         link: 'https://www.linkedin.com/in/janelamle/',
       },
+      {
+        name: 'Website',
+        faClass: 'fa fa-code',
+        display: 'janele.ca/',
+        link: 'https://janele.ca/',
+      },
     ],
   },
-  footer: 'Last updated 2021/05/14',
-  footerLinks: [
-    /*
-    {
-      name: 'Website',
-      faClass: 'fa fa-leaf',
-      display: 'https://janele.ca/',
-      link: 'https://janele.ca/',
-    },
-    */
-  ],
+  footer: 'Last updated 2022/01/04',
+  footerLinks: [],
   main: {
     firstName: 'Jane',
     lastName: 'Le',
-    title: 'Software Developer',
+    title: '3B Mechtronics Engineering Student',
     website: {
       name: 'https://janele.ca/',
       link: 'https://janele.ca/',
@@ -94,8 +101,14 @@ export default {
     companies: [
       {
         name: 'Coursera',
-        title: 'Incoming Software Engineering Intern',
-        date: 'Sept 2021'
+        title: 'Software Engineering Intern (Backend)',
+        date: 'Aug 2021 - Dec 2021',
+        location: 'Toronto, ON (Remote)',
+        achievements: [
+          'Shipped new API endpoints and improvements in <b>Scala</b> for <b><a href="https://www.coursera.org/business/teams">Coursera for Teams</a></b>.',
+          'Developed and authored a <b>technical design document</b> for an <b>ETL process</b> that transfers data into an offline storage, reducing latency of customer billing history.',
+          'Cleaned technical debt in production databases by creating <b>Airflow</b> jobs to backfill datasets using <b>SQL</b> queries.',
+        ],
       },
       {
         name: 'Bunch',
@@ -106,36 +119,36 @@ export default {
         achievements: [
           'Released <b><a href="https://apps.apple.com/gb/app/mars-dash-battle-running-game/id1549911883">Mars Dash: Battle Running Game v1.0</a></b> within a fast-paced timeline of 3 months by developing battle pass, character selection, and reactive networking systems using <b>Unity (C#)</b>.',
           'Prototyped and pitched the first iteration of a new Mars Dash game mode, which spearheaded product implementation.',
-          'Integrated <b>Firebase</b> database and analytics systems to store user player preferences and track metrics such daily active users, retention rate, and average rounds played.',
+          'Integrated <b>Firebase</b> to store user player preferences and track metrics such daily active users, retention rate, and average rounds played.',
         ],
       },
       {
         name: 'Zynga',
-        title: 'Software Engineering Intern',
+        title: 'Software Engineering Intern (Frontend)',
         color: '#815ACD',
         date: 'May 2020 – Aug 2020',
         location: 'Toronto, ON (Remote)',
         achievements: [
           'Enhanced <b><a href="https://www.zynga.com/games/words-with-friends-2/">Words with Friends 2</a></b> by using <b>Typescript</b>, <b>MobX</b>, and <b>React Native</b> to add advertisements for in-game purchases, and correct defects.',
-          'Shipped a key social feature independently that encourages players to connect to Facebook by using incentives, <b>increasing overall engagement by 22%.</b>',
-          'Collaborated with product teams to analyze trends for an in-game player retention feature and updated it accordingly, <b>increasing game creations through the feature by 31%.</b>',
+          'Shipped a key social feature that encourages players to connect to Facebook by using incentives, <b>increasing Facebook connect rate by 125%</b>.',
+          'Collaborated with product teams to analyze trends for an in-game player retention feature and updated it accordingly, <b>increasing overall game creations by 1.07%</b>.',
         ],
       },
       {
         name: 'Climax Media',
-        title: 'Frontend Developer',
+        title: 'Frontend Developer Intern',
         color: '#815ACD',
         date: 'Sep 2019 – Dec 2019',
         location: 'Toronto, ON',
         achievements: [
-          'Developed new UI features and bug fixes for the company\'s largest client MVC application using <b>React</b>, <b>Angular</b>, and <b>C#</b> in a three-week release cycle.',
+          'Developed new UI features and bug fixes for <b><a href="https://www.honda.ca/">Honda.ca</a></b> using <b>React</b> and <b>C#</b>.',
           'Contributed to the release of Honda\'s CO2 emissions display by implementing reusable UI components which boosted environmentally-friendly sales.',
           'Integrated a custom <b>Google Tag Manager</b> data layer across all of Honda\'s React apps to enable sufficient data tracking for the client.',
         ],
       },
       {
         name: 'Siemens Healthineers',
-        title: 'Software QA Specialist',
+        title: 'Software QA Specialist Intern',
         color: '#815ACD',
         date: 'Jan 2019 – Apr 2019',
         location: 'Ottawa, ON',
@@ -148,29 +161,19 @@ export default {
       {
         name: 'Lumi',
         type: 'SlackBot',
-        tools: ['SlackAPI', 'Flask', 'Ngrok'],
+        tools: ['Python', 'SlackAPI', 'Flask', 'Ngrok'],
         link: 'https://github.com/jane-le/lumi-bot',
         achievements: [
-          'Programmed a slackbot to automate sending random conversation-starters daily.',
+          'Programmed a <b><a href="https://github.com/jane-le/lumi-bot">slackbot</a></b> to automate sending random conversation-starters daily.',
         ],
       },
       {
         name: 'TeaBuddy',
         type: 'Android App',
         tools: ['Kotlin', 'Firebase', 'Realm'],
-        link: 'https://play.google.com/store/apps/details?id=com.willjane.teabuddy&hl=en_CA&gl=US',
+        link: 'https://github.com/williamxyshi/TeaBuddy',
         achievements: [
-          'Published an Android application that enables tea-lovers to make posts and comments about tea, obtain tea information, and time their brews.',
-          'Implemented an interface that consumes the MediaWikiAPI to display relevant tea details.',
-        ],
-      },
-      {
-        name: 'Guidin’ George',
-        type: 'Submission for EngHack2019',
-        tools: ['Google Maps Api', 'Django', 'Twilio SMS API'],
-        link: 'https://github.com/parappally/Guidin-George',
-        achievements: [
-          'Created an SMS application during a 36 hour hackathon that provides Wifi-less users with geographic directions.',
+          'Published an <b><a href="https://play.google.com/store/apps/details?id=com.willjane.teabuddy&hl=en&gl=US">Android application</a></b> that enables tea-lovers to make posts and comments about tea, obtain tea information, and time their brews.',
         ],
       },
     ],
