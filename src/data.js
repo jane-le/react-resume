@@ -5,10 +5,10 @@ export default {
       duration: '2018-2023',
       degree: 'BASc, Mechatronics Engineering',
       courses: [
-        'MATH 115 Linear Algebra for Engineering',
         'MTE 140 Data Structures & Algorithms (<b>C++</b>)',
         'MTE 241 Introduction to Computer Structures & Real-Time Systems (<b>C</b>)',
         'MTE 325 Microprocessor Systems and Interfacing',
+        'ECE 457A Adaptive and cooperative algorithms',
       ],
     },
     languages: [
@@ -38,7 +38,7 @@ export default {
       },
     ],
     about:
-      'I love software development and have a soft spot for the end-user. I’m a quick learner and have experience in multiple software roles. Let’s connect!',
+      'I love writing code and designing technical solutions. I’m a quick learner and have experience in multiple software roles. Let’s connect!',
     technologies: [
       'React',
       'React Native',
@@ -55,6 +55,8 @@ export default {
       'Airflow',
       'Redshift',
       'AWS',
+      'MyBatis',
+      'Finagle',
     ],
     interests: [
       'House plant <b>caretaker</b>.',
@@ -88,17 +90,28 @@ export default {
       },
     ],
   },
-  footer: 'Last updated 2022/01/04',
+  footer: 'Last updated 2022/09/07',
   footerLinks: [],
   main: {
     firstName: 'Jane',
     lastName: 'Le',
-    title: '3B Mechtronics Engineering Student',
+    title: '4A Mechtronics Engineering Student',
     website: {
       name: 'https://janele.ca/',
       link: 'https://janele.ca/',
     },
     companies: [
+      {
+        name: 'Twitter',
+        title: 'Software Engineering Intern (Fullstack)',
+        date: 'May 2022 - Sep 2022',
+        location: 'Toronto, ON (Remote)',
+        achievements: [
+          'Created an <b>internal dashboard</b> that can customize, alert, and monitor deployments of interest for teams at Twitter.',
+          'Organized discussions with the Service CD team to receive feedback for multiple dashboard UI iterations created in <b>React</b>. ',
+          'Architected backend API endpoints using <b>Scala</b>, <b>Finagle</b>, and <b>MyBatis</b> to perform CRUD operations for the dashboard in a safe, optimized, and documented manner.',
+        ],
+      },
       {
         name: 'Coursera',
         title: 'Software Engineering Intern (Backend)',
@@ -153,27 +166,7 @@ export default {
         date: 'Jan 2019 – Apr 2019',
         location: 'Ottawa, ON',
         achievements: [
-          'Eliminated the need for manual testing by initiating development for a mobile test suite for epoc® software using <b>Pytest</b> framework and <b>Appium API</b>.'
-        ],
-      },
-    ],
-    projects: [
-      {
-        name: 'Lumi',
-        type: 'SlackBot',
-        tools: ['Python', 'SlackAPI', 'Flask', 'Ngrok'],
-        link: 'https://github.com/jane-le/lumi-bot',
-        achievements: [
-          'Programmed a <b><a href="https://github.com/jane-le/lumi-bot">slackbot</a></b> to automate sending random conversation-starters daily.',
-        ],
-      },
-      {
-        name: 'TeaBuddy',
-        type: 'Android App',
-        tools: ['Kotlin', 'Firebase', 'Realm'],
-        link: 'https://github.com/williamxyshi/TeaBuddy',
-        achievements: [
-          'Published an <b><a href="https://play.google.com/store/apps/details?id=com.willjane.teabuddy&hl=en&gl=US">Android application</a></b> that enables tea-lovers to make posts and comments about tea, obtain tea information, and time their brews.',
+          'Eliminated the need for manual testing by initiating development for a mobile test suite for epoc® software using <b>Pytest</b> framework and <b>Appium API</b>.',
         ],
       },
     ],

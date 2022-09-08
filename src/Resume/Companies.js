@@ -5,7 +5,6 @@ const Companies = ({ data: companies }) => (
   <div>
     {companies.map((company, key) => (
       <Company
-        color={company.color}
         key={key}
         name={company.name}
         title={company.title}

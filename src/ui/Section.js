@@ -1,6 +1,6 @@
 import React, { PropTypes } from 'react';
 
-const Section = ({ color, children }) => (
+const Section = ({ children }) => (
   <section style={{
     marginTop: '-0.8rem',
     // borderTop: '0.1px solid ' + color,
@@ -12,7 +12,6 @@ const Section = ({ color, children }) => (
 );
 
 Section.propTypes = {
-  color: PropTypes.string.isRequired,
   children: PropTypes.node,
 };
 

@@ -1,32 +1,18 @@
-import React, { PropTypes } from "react";
-import Companies from "./Companies";
-import MainHeading from "./MainHeading";
-import Project from './Project';
-import Section from '../ui/Section';
+import React, { PropTypes } from 'react';
+import Companies from './Companies';
+import MainHeading from './MainHeading';
 
 
-const Main = ({ companies, projects }) => (
+const Main = ({ companies }) => (
   <section style={style.main}>
     <MainHeading title="+ Work Experience" />
     <Companies data={companies} />
-    <MainHeading title="+ Projects" />
-    {projects.map((project, key) => (
-      <Section key={key}>
-        <Project
-          name={project.name}
-          tools={project.tools}
-          achievements={project.achievements}
-          link={project.link}
-          type={project.type}
-          key={key} />
-      </Section>
-    ))}
   </section>
 );
 
 const style = {
   main: {
-    paddingRight: "1.25rem",
+    paddingRight: '1.25rem',
   },
 };
 
