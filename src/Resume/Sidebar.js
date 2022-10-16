@@ -8,20 +8,20 @@ import Education from "./Education";
 const Sidebar = ({ data }) => (
   <section style={style.main}>
     <div>
-      <ContactLinks data={data.links} />
-      <Languages data={data.languages} />
-      <SidebarList title="+ TECHNOLOGIES" items={data.technologies} />
-      <Education
+    <Education
         university={data.education.university}
         degree={data.education.degree}
         duration={data.education.duration}
         courses={data.education.courses}
       />
+      <Languages data={data.languages} />
+      <SidebarList title="+ TECHNOLOGIES" items={data.technologies} />
       <SidebarList
         title="+ INTERESTS"
         items={data.interests}
         separator={"<br/>"}
       />
+      <ContactLinks data={data.links} />
     </div>
 
   </section>

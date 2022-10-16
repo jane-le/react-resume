@@ -95,7 +95,7 @@ export default {
   main: {
     firstName: 'Jane',
     lastName: 'Le',
-    title: '4A Mechtronics Engineering Student',
+    title: 'Engineering student graduating May 2023',
     website: {
       name: 'https://janele.ca/',
       link: 'https://janele.ca/',
