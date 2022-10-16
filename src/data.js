@@ -7,8 +7,8 @@ export default {
       courses: [
         'MTE 140 Data Structures & Algorithms (<b>C++</b>)',
         'MTE 241 Introduction to Computer Structures & Real-Time Systems (<b>C</b>)',
-        'MTE 325 Microprocessor Systems and Interfacing',
-        'ECE 457A Adaptive and cooperative algorithms',
+        'MTE 325 Microprocessor Systems & Interfacing',
+        'ECE 457A Adaptive & cooperative algorithms',
       ],
     },
     languages: [
